@@ -23,13 +23,9 @@ export default {
     <div class="card-body">
     <h5 class="card-title">Deadline: {{ task.deadline }}</h5>
     <p class="card-text">{{ task.desc }}</p>
-    <a href="#" class="btn btn-primary" @click="$emit('removeTask', idx)">Done</a>
+    <button href="#" class="btn btn-primary" @click="$emit('removeTask', idx)">Done</button>
     </div>
     </div>
-
-
-     <SoundLevel></SoundLevel>
-   
 </template>
 
 
